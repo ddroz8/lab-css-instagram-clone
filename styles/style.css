@@ -8,3 +8,121 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.pagina{
+  padding-bottom: 0;
+}
+
+.pagina div{
+  display:flex;
+}
+
+.background{
+  background-image: url(/images/bgtile.png);
+  width: 100%;
+  height: 300px;
+  position: absolute;
+}
+
+.box-central{
+  position: relative;
+  width: 880px;
+  margin: 0 auto;
+}
+
+.columna-iphone{
+  display: flex;
+  align-items: center;
+  padding-top: 120px;
+}
+
+.columna-contenido{
+  display: flex ;
+  align-items: center;
+  padding-top: 120px;
+  position: relative;
+  width: 520px;
+  margin-left: 50px;
+}
+
+.header-contenido{
+  display: inline-flex;
+}
+
+.logo{
+  position: absolute;
+  top: 120px;
+  left: 10px;
+}
+.button-login{
+  display: inline-flex;
+  padding: 8px;
+  background-color: #285c86;
+  border: 2px solid #06365f;
+  border-radius: 4px;
+  position: absolute;
+  right: 20px;
+  top: 130px;
+}
+.button-login li{
+  display:inline-flex;
+  margin: 6px;
+  color: white;
+  font-weight: bold;
+}
+
+.info{
+  background-image: url(/images/frame.png);
+  width: 504px;
+  height: 284px;
+}
+
+.info-contenido{
+  padding: 10px 56px 120px 40px;
+  flex-direction: column;
+  margin: 8px;
+}
+
+.info-contenido h2{
+  color: #285c86;
+  margin: 12px 0;
+}
+
+.info-contenido p{
+  margin: 8px 0;
+}
+
+.box-icons-stores{
+  margin-top: 12px;
+  align-items: left;
+}
+
+.icons-store{
+  margin-right: 16px;
+}
+
+.estructura-footer{
+  display:flex;
+  justify-content: center;
+}
+
+.footer li{
+  display:inline-flex;
+  margin: 0;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+.footer a{
+  display:flex;
+  padding: 8px 8px;
+}
+
+.footer .copyright{
+  text-transform:uppercase;
+  font-weight:bold;
+  color:#cfcfcf;
+  padding: 8px;
+  display:inline-flex;
+}
